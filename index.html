@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang = "pt-BR">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">    
+    <meta charset="UTF-8">
+
+</head>
+
+
+<title> Encriptador </title>
+
+<body>
+ 
+    <header>
+        <img src="logoalura.png" alt="logo alura">
+    </header>
+<main class="main">
+
+    <section>
+        <textarea class="input-texto" cols ="40" rows="6" placeholder="Digite seu texto!"></textarea>   
+        <div>
+            <h6 class="informacao"> Apenas letras minúsculas e sem acento!</h6>
+        </div>
+        
+        <div class="botoes">
+          <button class = "encriptar" onclick="btnEncriptar()"> criptogafar</button>
+          <button class = "desencriptar" onclick="btnDesencriptar()"> desencriptar</button>
+        </div>
+    </section>
+
+    <section>
+       
+        <textarea class="mensagens" cols = "18" rows="8" placeholder="Criptografado/Descriptografado"></textarea>
+            <div>
+                <input class="botao" type="submit" value="copiar" id="botaoCopia">
+            </div>
+        
+        
+    </section>
+
+</main>
+<footer>
+    <p>  &copy; Copyright Vitória Xavier</p>
+</footer>
+
+</body>
+</html>
+<script src="script.js" ></script>
